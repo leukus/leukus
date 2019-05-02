@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Funny Boy Jumbotron</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript" >
+
+function changeImage1(id,src1,src2){
+ var img=document.getElementById(id);
+ if (img){
+  var src=img.src,p=src.slice(0,src.lastIndexOf('/'))+'/';
+  if (src==p+src1){
+   img.src=p+src2;
+  }
+  else {
+   img.src=p+src1;
+  }
+ }
+}
+
+</script>
+
+
+</head>
+
+
+	
+<body>
+
+<center><img id = "dikdik" src="thefunnyone.png">
+</center>
+
+<div class="goog">
+<input type="button" name="" value="Change Image"  onclick="changeImage1('dikdik','thefunnyone.png','thesecondone.jpg')"/>
+</body>
+
+</div>
+
+
+
+</body>
+</html>

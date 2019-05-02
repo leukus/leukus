@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.headertext {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.reg-text {
+
+ color: red;
+ -webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(path/to/bg/image) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+}
+
+body {
+		background-image: url("Color stuff.png");
+		background-size:100%;
+}
+
+.middle {
+	background-color:white;
+	width:1350px;
+	height:800px;
+}
+
+.topheader {
+	height:25px;	
+	
+	}
+	
+.bgClip {
+    background:url('Color stuff.png');
+    background-repeat:repeat-x;
+    background-position:0 0;
+    font-size:100px;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color:transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin:0;
+	
+}
+
+.bgClip2 {
+    background:url('Color stuff.png');
+    background-repeat:repeat-x;
+    background-position:0 0;
+    font-size:50px;
+    text-align:center;
+    font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    color:transparent;
+    -webkit-font-smoothing:antialiased;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    margin:0;
+	
+}
+

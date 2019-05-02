@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Shop.com</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/cart.png" />
+
+
+<script>
+
+function show() {
+    document.getElementById("dropdown").classList.toggle("show");
+}	
+
+document.getElementById('dropbtn').addEventListener('click',function() {
+  document.getElementById('body').style.marginTop = "10"
+})
+
+
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="headertop">
+	
+	
+		<div>
+        	<a href="index.html">
+			<div class="logo"></div>
+            </a>
+			<div class="dropdown">
+			
+				<button onclick="show()" class="dropbtn"> <div class="menuimage"> </div></button>
+ 					
+  					<div id="dropdown" class="headershow">
+					    <a class="links" href="">Toys And Games</a>
+                        &nbsp;
+    					<a class="links" href="">Household</a>
+                        &nbsp;
+                        <a class="links" href="">Food and Drink</a>
+                        &nbsp;
+                        <a class="links" href="">Automotive</a>
+                        &nbsp;
+                        <a class="links" href="">Electronics</a>
+                        &nbsp;
+                        <a class="links" href="">Clothes</a>
+                        &nbsp;
+                        <a class="links" href="">Outdoors</a>
+	 				</div>
+			</div>
+		</div>
+
+	<div class="headershow">		
+	</div>
+	
+    <div id="main">
+	<div class="bodydiv">
+    	<div class="bodycontainer">
+    	<div class="space-product">
+				<h1  class="text"> iPhone 8 and 8 Plus </h1>
+                    <br>
+                    <h2> Key Features </h2>
+                    <br>
+                    <p class="text"> iPhone 8 introduces an all‑new glass design. The world's most popular camera, now even better. The smartest, most powerful chip ever in a smartphone. Wireless charging that’s truly effortless. And augmented reality experiences never before possible. iPhone 8. A new generation of iPhone. </p>
+                    <br>
+                    <button class="buybutton"> Coming Soon </button>
+                    
+            </div>
+            <div class="space-product-left">
+                    <a href="s9.html"> <img  class="featuresize" src="images/i8big.png" ></a>
+
+        
+  	</div>
+</div>
+    
+</div>
+
+<div class="footer">
+<h1 class="text-footer">© 2018 Shop.com</h1>
+</div>
+
+</body>
+</html>
